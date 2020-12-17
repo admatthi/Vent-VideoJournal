@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0nY-iQ-NDe">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,12 +24,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="eWZ-hk-n5n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xvk-sq-U4U"/>
                             <constraint firstItem="eWZ-hk-n5n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ll1-5V-HD7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -49,12 +51,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kiq-Ui-rZ3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MX2-gt-cox" firstAttribute="centerY" secondItem="PNt-Av-g6O" secondAttribute="centerY" id="W1P-pn-8NR"/>
                             <constraint firstItem="MX2-gt-cox" firstAttribute="centerX" secondItem="PNt-Av-g6O" secondAttribute="centerX" id="ybn-9X-bF5"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kiq-Ui-rZ3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIK-zH-ga8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -76,12 +78,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4zO-Xj-ZLG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2VR-FX-kLI" firstAttribute="centerX" secondItem="JOe-jn-hZI" secondAttribute="centerX" id="QHm-Jk-JIr"/>
                             <constraint firstItem="2VR-FX-kLI" firstAttribute="centerY" secondItem="JOe-jn-hZI" secondAttribute="centerY" id="zCi-m5-erG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="4zO-Xj-ZLG"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPM-Mf-R29" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -103,12 +105,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="e76-HX-uC8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LBS-GT-CGG" firstAttribute="centerX" secondItem="V8E-Fi-4py" secondAttribute="centerX" id="3k9-ZG-4Fi"/>
                             <constraint firstItem="LBS-GT-CGG" firstAttribute="centerY" secondItem="V8E-Fi-4py" secondAttribute="centerY" id="LkW-P1-t2b"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="e76-HX-uC8"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rom-vf-xOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -122,8 +124,8 @@
                     <view key="view" contentMode="scaleToFill" id="CSw-Ih-QVm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lMm-n7-Kgt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Nh-sS-HCh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -137,13 +139,73 @@
                     <view key="view" contentMode="scaleToFill" id="bH6-8S-Qco">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aEk-wR-I4R"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YW-IT-lpL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4016" y="137"/>
         </scene>
+        <!--Video Capture-->
+        <scene sceneID="Yyh-Ca-dDi">
+            <objects>
+                <viewController id="0nY-iQ-NDe" customClass="VideoCapture" customModule="Vent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MP6-sl-Tme">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUb-tn-bso">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jUx-Vm-2SQ">
+                                        <rect key="frame" x="167" y="776" width="80" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBl-lA-fbT" customClass="RecordButton" customModule="RecordButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="BlL-id-JMx"/>
+                                            <constraint firstAttribute="height" constant="80" id="rXF-ZL-Gjb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="jUx-Vm-2SQ" firstAttribute="centerX" secondItem="cUb-tn-bso" secondAttribute="centerX" id="8KM-Bf-DAw"/>
+                                    <constraint firstAttribute="bottom" secondItem="jUx-Vm-2SQ" secondAttribute="bottom" constant="40" id="tKk-AM-oOo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6by-x3-eWV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cUb-tn-bso" firstAttribute="top" secondItem="MP6-sl-Tme" secondAttribute="top" id="ArR-UT-Dzx"/>
+                            <constraint firstAttribute="bottom" secondItem="cUb-tn-bso" secondAttribute="bottom" id="Tta-Eg-s1T"/>
+                            <constraint firstItem="cUb-tn-bso" firstAttribute="leading" secondItem="6by-x3-eWV" secondAttribute="leading" id="eLL-3U-Z2q"/>
+                            <constraint firstItem="cUb-tn-bso" firstAttribute="trailing" secondItem="6by-x3-eWV" secondAttribute="trailing" id="f98-1w-1fb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TapView" destination="jUx-Vm-2SQ" id="Vg7-tf-cjH"/>
+                        <outlet property="recordButton" destination="iBl-lA-fbT" id="OCq-qf-hcN"/>
+                        <outlet property="videoView" destination="cUb-tn-bso" id="hdy-S9-jKm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKQ-Vh-PTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="KkW-3b-7XX"/>
+            </objects>
+            <point key="canvasLocation" x="4771.0144927536239" y="136.60714285714286"/>
+        </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
